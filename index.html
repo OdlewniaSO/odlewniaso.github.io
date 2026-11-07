@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <link rel="icon" href="Images/favicon-32x32.png">
+        <script src="scripts/components/header.js" type="text/javascript" defer></script>
+        <script src="scripts/components/footer.js" type="text/javascript" defer></script>
+        <title>Obróbka Mechaniczna, Kompleksowe Usługi Obróbki</title>
+        <meta name="description" content="Usługi obróbki mechanicznej CNC. Obróbka odlewów żeliwnych i form odlewniczych.">
+        <meta name="keywords" content="usługi obróbki, obróbka mechaniczna, obróbka seryjna">
+    </head>
+    <body>
+      <script src="scripts/opennav.js" type="text/javascript"></script>
+
+      <noscript>
+        <div style="width: 260px; font-size: 18px;">
+          Aby wyświetlić menu strony upewni się, że przeglądarka obsługuje Javascript, oraz że jest on włączony w ustawieniach.
+        </div>
+      </noscript>
+
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <header-component></header-component>
+
+          <div class="background" style="background-color: black;">
+            <div class="background-content">
+              <h1>Obróbka seryjna detali <br> z różnych materiałów</h1>
+              <p style="color: #fff;">Oferujemy kompleksowe usługi obróbki mechanicznej <br> wraz z pakowaniem i transportem.</p>
+              <button class="ctabtn" onclick="location.href='#contact'">Złóż zapytanie</button>
+            </div>
+          </div>
+        
+
+      <div class="main">
+
+        <div class="content-wraper">
+          <section id="about">
+            <h1>Kim jesteśmy?</h1>
+            <p>Przedmiotem naszej działalności jest obróbka seryjna (min. 100 sztuk) detali o szerokim zakresie wymiarowym za pomocą nowoczesnych obrabiarek numerycznych CNC. Nasz dział powstał w 2006 roku w ramach rozbudowy Odlewni Żeliwa Simiński-Ordon. Specjalizujemy się w obróbce detali dla branż takich jak rolnictwo, motoryzacja czy budownictwo. Oferujemy usługi obróbcze z materiału własnego jak i powierzonego.</p>
+          </section>
+
+          <hr>
+
+          <section id="services">
+            <h1>Jakie usługi oferujemy?</h1>
+            <p>Oferujemy toczenie i frezowanie elementów wraz z malowaniem pakowaniem i transportem. Na zamówienie klienta możemy również wykonać odlewy żeliwne wraz z oprzyrządowaniem.</p>
+
+              <div class="media-and-text">
+                <div class="media-and-text_text">
+                  <h2>Toczenie CNC</h2>
+                  <p>Toczenie to rodzaj obróbki skrawaniem, w którym nieruchome narzędzie usuwa materiał z obracającego się detalu. Obróbka tokarska zwykle wykorzystywana jest przy wykonywaniu brył obrotowych takich jak rolki, wały czy rury.</p>
+                </div>
+                <div class="media-and-text_image">
+                  <picture>
+                    <source type="image/avif" src="Images/turning.avif">
+                    <source type="image/jpg" src="Images/turning.jpg">
+                    <img src="Images/turning.avif" alt="frezowanie CNC plyt modelowych" loading="lazy">
+                  </picture>
+                </div>
+              </div>
+
+              <div class="media-and-text">
+                <div class="media-and-text_text">
+                  <h2>Frezowanie CNC</h2>
+                  <p>Frezowanie to rodzaj obróbki skrawaniem w którym obrotowe narzędzie usuwa materiał z nieruchomego detalu. Wykorzystywane do obróbki powierzchni płaskich przy tworzeniu na przykład płyt modelowych.</p>
+                </div>
+                <div class="media-and-text_image">
+                  <picture>
+                    <source type="image/avif" src="Images/milling.avif">
+                    <source type="image/jpg" src="Images/milling.jpg">
+                    <img src="Images/milling.avif" alt="frezowanie CNC plyt modelowych" loading="lazy">
+                  </picture>
+                </div>
+              </div>
+
+              <div class="media-and-text">
+                <div class="media-and-text_text">
+                  <h2>Odlewy żeliwne</h2>
+                  <p>Więcej informacji na naszej stronie <a href="https://www.odlewy.com">odlewy.com</a></p>
+                </div>
+                <div class="media-and-text_image">
+                  <picture>
+                    <source type="image/avif" src="Images/odlewy.avif">
+                    <source type="image/jpg" src="Images/odlewy.jpg">
+                    <img src="Images/odlewy.avif" alt="nalewanie metalu do form odlewniczych" loading="lazy">
+                  </picture>
+                </div>
+              </div>
+            </section>
+
+            <hr>
+
+            <section id="materials">
+              <h1>Obrabiane Materiały</h1>
+
+              <div class="card-container">
+                <div class="card">
+                  <img src="Images/Brass.jpg" alt="wałek mosięrzny" loading="lazy">
+                  <div class="card_text">
+                    <p>Mosiądz</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="Images/aluminum.jpg" alt="wałek aluminiowy" loading="lazy">
+                  <div class="card_text">
+                    <p>Aluminium</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="Images/cooper_01.jpg" alt="wałek miedziany" loading="lazy">
+                  <div class="card_text">
+                    <p>Miedź</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="Images/LAB.jpg" alt="wałek żywiczny" loading="lazy">
+                  <div class="card_text">
+                    <p>Żywica Epoksydowa</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="Images/steel.jpg" alt="wałek stalowy" loading="lazy">
+                <div class="card_text">
+                  <p>Stal</p>
+                </div>
+              </div>
+            </section>
+
+              <hr>
+
+          <section id="technology">
+            <h1>Park Maszynowy</h1>
+            <p>Aktualnie nasz park maszynowy składa się z 24 stanowisk w tym 2 zrobotyzowanych. W naszej firmie staramy się zawsze wykorzystywać najnowocześniejsze urządzenia  aby zwiększyć efektywność i pozostać na czele branżowych trendów. Zachęcamy do zapoznania się z podstawowymi parametrami posiadanych przez nas urządzeń.</p>
+
+          <p>Tokarki (wymiary podano w mm)</p>
+          <table>
+            <tr>
+              <th>Nazwa</th>
+              <th>Ø max. detalu</th>
+              <th>L max. detalu</th>
+              <th>Uchwyt w calach</th>
+            </tr>
+            <tr>
+              <td>Dossan Puma V8300M</td>
+              <td>830</td>
+              <td>750</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Hyundai LV800 RM</td>
+              <td>800</td>
+              <td>800</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Hyundai LV800 RM</td>
+              <td>800</td>
+              <td>800</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Hyundai LV450RM</td>
+              <td>464</td>
+              <td>464</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>Hyundai SKT28</td>
+              <td>410</td>
+              <td>720</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>Hyundai KL2300A</td>
+              <td>310</td>
+              <td>360</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Hyundai KL2300A</td>
+              <td>310</td>
+              <td>360</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Okuma Genos L3000 MY-400</td>
+              <td>300</td>
+              <td>500</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Okuma Genos L2000-e</td>
+              <td>230</td>
+              <td>290</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Dossan Puma GT2100M</td>
+              <td>390</td>
+              <td>562</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Dossan Lynx2100B</td>
+              <td>350</td>
+              <td>330</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Dossan Lynx2100B</td>
+              <td>350</td>
+              <td>330</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Goodway GLS-2000</td>
+              <td>430</td>
+              <td>310</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Goodway GL-2600</td>
+              <td>350</td>
+              <td>600</td>
+              <td>10</td>
+            </tr>
+          </table> 
+
+          <p>Frezarki (wymiary podano w mm)</p>
+
+          <table>
+            <tr>
+              <th>Nazwa</th> 
+              <th>Wymiary stołu</th>
+              <th>Przejazdy X,Y,Z</th>
+              <th>Uchwyt 4 oś</th>
+            </tr>
+            <tr>
+              <td>Dossan SVM4100</td>
+              <td>920 x 410</td>
+              <td>770 x 410 x 510</td>
+              <td>8 cali</td>
+            </tr>
+            <tr>
+              <td>Evericho VMC1363AB</td>
+              <td>600 x 1450</td>
+              <td>1300 x 630 x 624</td>
+              <td>8 cali</td>
+            </tr>
+            <tr>
+              <td>Okuma Genos M560V-e</td>
+              <td>1300 x 560</td>
+              <td>1050 x 560 x 460</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Hyundai F500D</td>
+              <td>1700 x 500</td>
+              <td>600 x 460 x 570</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Hyundai F500D</td>
+              <td>1700 x 500</td>
+              <td>600 x 460 x 570</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>HAAS UMC1000</td>
+              <td>fi 635</td>
+              <td>1016 x 635 x 635</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>HAAS UMC1000</td>
+              <td>fi 635</td>
+              <td>1016 x 635 x 635</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>HAAS VF3 SSYT</td>
+              <td>1372 x 610</td>
+              <td>1016 x 660 x 635</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>HAAS VF3 SSYT</td>
+              <td>1372 x 610</td>
+              <td>1016 x 660 x 635</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>HAAS VF3 SSYT</td>
+              <td>1372 x 610</td>
+              <td>1016 x 660 x 635</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>DMC 1150V</td>
+              <td>1460 x 750</td>
+              <td>1150 x 700 x 550</td>
+              <td>-</td>
+            </tr>
+          </table>
+
+          <h2>Galeria</h2>
+          <div class="card-container">
+            <div class="card">
+              <img src="Images/machines/robot02.jpg" alt="" loading="lazy">
+              <div class="card_text">
+                <p>DOOSAN Lynx 2100B</p>
+              </div>
+            </div>
+
+          <div class="card">
+            <img src="Images/machines/hass1000.jpg" alt="obrabiarka hass" loading="lazy">
+            <div class="card_text">
+              <p>HASS UMC 1000</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/robot1.jpg" alt="" loading="lazy">
+            <div class="card_text">
+              <p>Hyundai Wia KL2300A</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/machines/okumal3000.jpg" alt="obrabiarka okuma" loading="lazy">
+            <div class="card_text">
+              <p>OKUMA L3000-E</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/machines/okuma-l2000.jpg" alt="obrabiarka numeryczna okuma" loading="lazy">
+            <div class="card_text">
+              <p>OKUMA L2000-e</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/machines/hass_vf3sys.jpg" alt="obrabiarka numeryczna hass" loading="lazy">
+            <div class="card_text">
+              <p>HASS VF3SYS</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/machines/dmgmori.png" alt="" loading="lazy">
+            <div class="card_text">
+              <p>DMC 1150V</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/machines/puma2100m.jpg" alt="obrabiarka numeryczna doosan" loading="lazy">
+            <div class="card_text">
+              <p>DOOSAN GT2100-M</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/machines/doosan300m.jpg" alt="obrabiarka numeryczna doosan" loading="lazy">
+            <div class="card_text">
+              <p>DOOSAN V8300</p>
+            </div>
+          </div>
+
+        </div>
+          </section>
+
+          <hr>
+
+            <section id="contact">
+              <h1>Skontaktuj się z nami</h1>
+              <div class="media-and-text">
+                <div class="media-and-text_text">
+                  <h2>Odlewnia Żeliwa Simiński Ordon S.K.A.</h2>
+                  <p>ul. Jałowcowa 12, 42-262 Poczesna
+                  <br>
+                  Telefon: +48 34 327 48 95
+                  <br>
+                  E-mail: <a href="mailto:obrobka@odlewy.com">obrobka@odlewy.com</a></p>
+                </div>
+                <div class="media-and-text_image">
+                  <picture>
+                    <source type="image/avif" src="Images/contact_2.avif">
+                    <source type="image/jpg" src="Images/contact_2.jpg">
+                    <img src="Images/contact_2.avif" alt="informacje kontaktowe" loading="lazy">
+                  </picture>
+                </div>
+              </div>
+            </section>
+
+          </div>
+          <footer-component></footer-component>
+        </div>
+      </div>
+
+
+
+
+    </body>
+</html>
