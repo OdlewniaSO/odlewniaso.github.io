@@ -255,6 +255,7 @@ tr:nth-child(even) {
   .media-and-text_image img{
     width: 100%;
     height: auto;
+    border-radius: 8px;
     }
 
 @media screen and (max-width: 760px){
@@ -284,6 +285,7 @@ tr:nth-child(even) {
   }
   .card img{
     width: 100%;
+    border-radius: 8px;
   }
 
   .card p{
